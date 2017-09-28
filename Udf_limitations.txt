@@ -1,6 +1,4 @@
-Within the constraints listed in this topic, you can use UDFs anywhere you use the Amazon Redshift built-in scalar functions. For more information, see SQL Functions Reference.
-
-Amazon Redshift Python UDFs have the following constraints:
+Amazon Redshift UDF's built-in scalar functions has following constraints:
 
 Python UDFs cannot access the network or read or write to the file system.
 The total size of user-installed Python libraries cannot exceed 100 MB.
